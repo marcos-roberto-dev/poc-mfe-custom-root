@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue'
 // import './style.css'
-import App from './TopbarApp.vue'
+import App from './App.vue'
 import singleSpaVue from 'single-spa-vue';
 
 // createApp(App).mount('#app')
