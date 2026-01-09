@@ -6,3 +6,9 @@ declare module 'https://*/*'
 
 // Fallback for other remote-like imports
 declare module '*?url'
+
+declare module '*.vue' {
+    import { DefineComponent } from 'vue';
+    const component: DefineComponent<{}, {}, any>;
+    export default component;
+}
